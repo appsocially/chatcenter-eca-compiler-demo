@@ -1,0 +1,16 @@
+{
+  "name": "chatcenter-eca-compiler-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "eca-compiler": "git+ssh://git@github.com:appsocially/chatcenter-eca-compiler.git#feature/create_template"
+  }
+}
